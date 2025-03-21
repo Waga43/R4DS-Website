@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "R4DS-Website"
@@ -16,6 +17,8 @@ format:
       - brand
     css: styles.css
     toc: true
+    comments: 
+      hypothesis: true
 
 editor: visual
 
